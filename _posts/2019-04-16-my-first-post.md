@@ -6,7 +6,7 @@ categories: Ubuntu
 ---
 ###### 참고 : https://www.maketecheasier.com/useful-shortcut-keys-in-ubuntu/
 
-#유용한 Ubuntu 단축키 모음
+# 유용한 Ubuntu 단축키 모음
 
 아직 우분투가 익숙치 않아 단축키를 알아두면 작업할때  유용할것 같아서 포스팅하게 되었습니다.
 익숙치 않은 단축키만 작성하였습니다.
