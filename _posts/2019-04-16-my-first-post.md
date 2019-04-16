@@ -11,14 +11,14 @@ categories: Ubuntu
 아직 우분투가 익숙치 않아 단축키를 알아두면 작업할때  유용할것 같아서 포스팅하게 되었습니다.
 익숙치 않은 단축키만 작성하였습니다.
 
-##Windows
+## Windows
 *SUPER키는 WINDOW키와 동일하다*
 - ALT + ` = 같은 프로그램의 다른 창 활성화
 - CTRL + SUPER + UP = 창 최대화
 - CTRL + SUPER + DOWN = 창 최소화 OR 최대화된 창 크기 복구
 - ALT + SPACE = 창 메뉴 열기
 
-##Screenshots
+## Screenshots
 - PRTSC = 전체 화면 캡쳐
 - ALT + PRTSC = 현재 활성화 된 창 캡쳐
 - SHIFT + PRTSC = 마우스 선택 영역 캡쳐
@@ -26,7 +26,7 @@ categories: Ubuntu
 - CTRL + ALT + PRTSC = 현재 활성화 된 창 캡쳐 후 클립보드에 저
 - CTRL + SHIFT + PRTSC = 마우스 선택 영역 캡쳐 후 클립보드에 저장
 
-##Terminal
+## Terminal
 - CTRL + A = 첫 줄로 커서 이동
 - CTRL + E = 마지막 줄로 커서 이동
 - CTRL + C = 현재 프로세서 종료
