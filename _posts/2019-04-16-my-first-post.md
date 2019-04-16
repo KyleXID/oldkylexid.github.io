@@ -4,13 +4,17 @@ title:  "우분투 단축키"
 date: 2019-04-16
 categories: Ubuntu
 ---
-###### 참고 : https://www.maketecheasier.com/useful-shortcut-keys-in-ubuntu/
+###### 참고 : <https://www.maketecheasier.com/useful-shortcut-keys-in-ubuntu/>
+###### <https://soooprmx.com/archives/2777>
 
+<br/>
 # 유용한 단축키 모음
 
  아직 우분투가 익숙치 않아 단축키를 알아두면 작업할때 유용할것 같아서 포스팅하게 되었습니다. 익숙하지 않은 단축키 위주로 작성하였습니다.
 
 ---
+
+<br/>
 ## Windows
 #### *SUPER키는 WINDOW키와 동일하다*
 - ALT + ` = 같은 프로그램의 다른 창 활성화
@@ -45,8 +49,10 @@ categories: Ubuntu
 - ALT + B = 한 글자 뒤로 이동
 - 방향키 위/아래 = 사용한 명령어 확인
 - SHIFT + PageUP/PageDown = 터미널 스크롤
-
+  
 ---
+
+<br/>
 ## vi 기본 사용법
 ### 커서 이동
 - i = 현재 커서 위치에서 텍스트 삽입
