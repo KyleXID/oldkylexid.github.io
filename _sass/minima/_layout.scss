@@ -20,7 +20,7 @@
   text-align: center;
   right: 50%;
   top: 117px;
-  margin-right: -202px;
+  margin-right: -156.25px;
   //height : 300px;
   //width : 100%;
   text-decoration: none;
@@ -52,6 +52,10 @@
   .page-link {
     color: $text-color;
     line-height: $base-line-height;
+	position: absolute;
+	top: 20px;
+	right: 3%;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 
     // Gaps between nav items, but not on the last one
     &:not(:last-child) {
