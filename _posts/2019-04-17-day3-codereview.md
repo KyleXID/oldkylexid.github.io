@@ -103,13 +103,13 @@ console.log(getLengthOfStr('taaaytts'));
 <nb/>
 <nb/>
 **여기서 ```strArr```의 배열을 ```prevStrArr```의 배열에 넣어줄 때 ```slice```를 쓴 이유는 무엇일까?**  
->**Array** 는 각각의 **고유한 reference**를 **memory**에 할당받는다.  
+>**Array** 는 배열 값 자체가 저장되는 것이 아니라, 그 배열의 참조값이 저장되기 때문이다.  
 >이를 빠르게 이해하기 위해서 ```let a = [1, 2, 3]``` 과 ```let b = [1, 2, 3]``` 이 동일한지 확인하자  
 >결과는  **false**가 나올것이다.
 <nb/>
-그렇기 때문에 만약 ```prevStrArr = strArr``` 처럼 변수 값을 저장하게 되면, 후에 ```strArr```의 배열이 바뀔때마다 ```prevStrArr```의 변수값도 동일하게 바뀔것이다.  
->*이는 ```prevStrArr```에 배열 그 값 자체가 저장된 것이아니라,  
->```strArr```이라는 고유한 reference가 저장되었기 때문이다*  
+그렇기 때문에 만약 ```prevStrArr = strArr``` 처럼 값을 저장하게 되면, 후에 ```strArr```의 배열이 바뀔때마다 ```prevStrArr```의 값도 동일하게 바뀔것이다.  
+>*이는 ```prevStrArr```에 strArr배열 값이  저장된 것이아니라,  
+>```strArr```의 참조값을 할당받기  때문이다*  
 <nb/>
 이를 피하기위해 ```slice()```형식으로 변수값을 저장해주면 ```prevStrArr```에 다른 reference로 배열이 저장되어 독립적인 배열을 갖게된다.
 <nb/>
