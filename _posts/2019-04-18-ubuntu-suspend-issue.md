@@ -22,7 +22,7 @@ categories: Ubuntu
 18.04에서 display manager는 lightDM에서 gdm3 로 업데이트 되었다.
 <nb/>
 
-![](./img/dismanager.png)
+![](../img/dismanager.png)
 
 *리눅스 환경 가장 좋은 평을 받고있는 manager*
 
@@ -30,7 +30,7 @@ categories: Ubuntu
 
 하지만 마음에 들어한것도 잠시,, display가 절전시 먹통이 되어 마우스포인터만 움직이는 현상이 발생되었다.
 
-![](./img/suspend.jpg)
+![](../img/suspend.jpg)
 
 ~~젠장~~
 
@@ -106,7 +106,7 @@ cat/sys/power/mem_sleep
 <https://www.omgubuntu.co.uk/2017/02/ukuu-easy-way-to-install-mainline-kernel-ubuntu>해당 링크를 참고하여 설치한 후 구버전 커널을 설치해보도록 하자.  
 많은 포럼에서 해결을 한 커널 버전은 4.14버전이라고하니 한번 설치하고 테스트해보자.
 
-![](./img/UKUU.png)
+![](../img/UKUU.png)
 
 <nb/>
 ~~물론 나는 이 방법으로도 해결되지 않았다,,,ㅠㅠ~~
