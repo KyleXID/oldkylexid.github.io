@@ -57,11 +57,11 @@ if(frontstr.length > behindstr.length) {
  이 코드는 뒷부분이 긴경우인 경우 실행되는 code이다.  
 문제점은 뒷부분에서 이렇게 코드를 읽어도 뒷문자열의 배열에 따라 결국 **무한하게 자르고 비교하는 행위**를 계속해야 한다는 것이다.
 결국 접근 방법에 문제가 있다고 생각하여 계속 파트너와 feedback을 주고받다가 결국 시간초과로 coding을 멈추고 다른 작업을 하게되었다.
-<nb/>
-<nb/>
+<br/>
+<br/>
 ## Code feedback
 --- 
-<nb/>
+<br/>
 이후 멘토에게 코드 피드백을 받았다.
 
 **멘토의 모범답안**
@@ -93,25 +93,25 @@ function getLengthOfStr(s) {
 console.log(getLengthOfStr('taaaytts'));
 ```
 *각 문자열을* `slice`*로 잘라 빈 배열에 계속 추가하고 같은 문자열을 만났을때 상황을 정리한 code*
-<nb/>
+<br/>
 멘토의 코드를 위부터 차근차근 살펴보자.  
 먼저 멘토는 빈 배열을 선언하였다.  
-<nb/>
+<br/>
 후에 `for`문을 통하여 각 문자를 `slice`로 자른 뒤 ss에 선언한다. ss를 `strArr[]`의 각 배열과 비교하여 아무것도 일치하는것이 없는 경우 `strArr`배열에 `push`한다.  
-<nb/>
+<br/>
 만약 `for`문을 돌면서 값이 일치하는  경우에는 `prevStrArr`배열의 길이와 `strArr`배열의 길이를 비교하여 `prevStrArr`의 배열의 길이가 작을경우에는 `strArr`의 배열을 `prevStrArr`에 넣어준다.
-<nb/>
-<nb/>
+<br/>
+<br/>
 **여기서 `strArr`의 배열을 `prevStrArr`의 배열에 넣어줄 때 `slice`를 쓴 이유는 무엇일까?**  
 >**Array** 는 배열 값 자체가 저장되는 것이 아니라, 그 배열의 참조값이 저장되기 때문이다.  
 >이를 빠르게 이해하기 위해서 `let a = [1, 2, 3]` 과 `let b = [1, 2, 3]` 이 동일한지 확인하자  
 >결과는  **false**가 나올것이다.
-<nb/>
+<br/>
 그렇기 때문에 만약 `prevStrArr = strArr` 처럼 값을 저장하게 되면, 후에 `strArr`의 배열이 바뀔때마다 `prevStrArr`의 값도 동일하게 바뀔것이다.  
 >*이는* `prevStrArr`*에 strArr배열 값이  저장된 것이아니라,*  
 >`strArr`*의 참조값을 할당받기  때문이다*  
-<nb/>
+<br/>
 이를 피하기위해 `slice()`형식으로 변수값을 저장해주면 `prevStrArr`에 다른 reference로 배열이 저장되어 독립적인 배열을 갖게된다.
-<nb/>
+<br/>
 이후에는 `strArr`이 `ss`와 중복된 값이 마주친 곳에서부터 `splice`하여 함수를 돌려주게 된다.  
 그 후 `Math.max`함수를 이용하여 가장 길이가 긴 값을 `return`하게 되면서, 중복되지 않은 알파벳으로 이루어진 제일 긴 단어의 길이를 반환하게 되는 `function`이 완성된다.
