@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-**# MonsterCoding**
+# **MonsterCoding**
 ---
 <nb/>
 This blog was created to share code-related information.  
