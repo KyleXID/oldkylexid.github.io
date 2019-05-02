@@ -2,7 +2,7 @@
 layout: post
 title:  "Function to output the longest non-duplicated alphabet"
 date: 2019-04-17
-categories: Coding
+categories: JavaScript
 ---
 
 # CodeKata Review

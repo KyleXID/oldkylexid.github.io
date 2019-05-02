@@ -2,7 +2,7 @@
 layout: post
 title:  "Sorting JavaScript Object by property value"
 date: 2019-04-25
-categories: Coding
+categories: JavaScript
 ---
 
 ## 객체(object) 정렬하기

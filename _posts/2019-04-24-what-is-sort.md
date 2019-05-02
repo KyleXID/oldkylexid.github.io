@@ -2,7 +2,7 @@
 layout: post
 title:  "What is sort?"
 date: 2019-04-24
-categories: Coding
+categories: JavaScript
 ---
 
 ## Sorting an Array
