@@ -4,18 +4,18 @@ title: About
 permalink: /about/
 ---
 
-# **MonsterCoding**
+# MonsterCoding
 ---
-<nb/>
+
+<br/>
+
 This blog was created to share code-related information.  
-<nb/>
-<nb/>
-<nb/>
-<nb/>
+
+<br/>
 .  
 .  
 .  
-### If you are thinking about **coding**, let's be TOGETHER.
+### If you are thinking about coding, let's be TOGETHER.
 <nb/>
-with **[WeCode](https://wecode.co.kr/)**
+with [WeCode](https://wecode.co.kr/)
 

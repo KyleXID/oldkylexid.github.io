@@ -32,7 +32,7 @@ categories: JavaScript
 # Number타입 정렬
  숫자 정렬은 `sort()` 메서드에 추가 코딩을 해주어야한다.
 
-```
+```javascript
 let numarr = [5, 10, 3, 15, 1];
 
 //오름차순

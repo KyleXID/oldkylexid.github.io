@@ -10,7 +10,7 @@ categories: JavaScript
 
 `sort`라는 매서드를 호출하면 배열을 간단하게 정렬할 수 있다.
 
-```
+```javascript
 let test = [1,4,2,10,3];
 
 test.sort();
@@ -21,7 +21,7 @@ test.sort();
 하지만 객체는 `sort`를 쓴다고 해서 바로 정렬이 되지않기 때문에, `sort`에 추가 coding을 해주어야한다.
 
 # 객체를 value값에 따라 key값과 함께 정렬
-```
+```javascript
 let testobj = { "1": 5
   "2": 3
   "5": 1
@@ -41,7 +41,7 @@ sortable.sort(function(a, b) {
 
 <br/>
 정렬된 key값만 추출하는 간단한 방법도 존재한다.
-```
+```javascript
 let keysSorted = Object.keys(testobj).sort(
   function(a,b){
   return numi[a]-numi[b];

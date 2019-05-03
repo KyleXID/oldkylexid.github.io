@@ -12,7 +12,7 @@ categories: JavaScript
 
  일단 나의 접근 방법은 일정한 문자 배열을 받을 경우 해당 위치에서 앞부분과 뒷부분으로 나누어 문자를 생성한 뒤 이 부분을 각 변수에 할당하여 각 변수를 비교하는 것으로 접근하였다.
 
-```
+```javascript
 function getLengthOfStr(str) {
   if (str.length === 0) {
     return 0;
@@ -27,7 +27,8 @@ function getLengthOfStr(str) {
             return frontstr.length;
 			.
 			.
-			.```
+			.
+```
 
 
 *앞부분과 뒷부분을* `slice`*로 나누어 앞문자열과 뒷문자열의 길이를 비교하였다.*  
@@ -36,7 +37,7 @@ function getLengthOfStr(str) {
 <br/>
  **하지만 이 코드의 문제점은 뒷부분에서 나타났다.**
 
-```
+```javascript
 if(frontstr.length > behindstr.length) {
             return frontstr.length;
           } else {
@@ -65,7 +66,7 @@ if(frontstr.length > behindstr.length) {
 이후 멘토에게 코드 피드백을 받았다.
 
 **멘토의 모범답안**
-```
+```javascript
 function getLengthOfStr(s) {
     let strArr = [];
     let prevStrArr = [];
