@@ -36,7 +36,7 @@ body{
   text-align: center;
   right: 50%;
   top: 117px;
-  margin-right: -225.35px;
+  margin-right: -199.56px;
   //height : 300px;
   //width : 100%;
   text-decoration: none;
@@ -49,6 +49,13 @@ body{
   &,
   &:visited {
     color: rgba(255, 255, 255, 0.9);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .site-title {
+    font-size: 45px;
+    margin-right:-142.25px;
   }
 }
 
@@ -270,6 +277,7 @@ body{
 }
 
 .post-content {
+  font-size: 20px;
   margin-bottom: $spacing-unit;
 
   h2 {
