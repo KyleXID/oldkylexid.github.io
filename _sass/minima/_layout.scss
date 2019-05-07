@@ -1,9 +1,10 @@
 /**
  * Site header
  */
+@font-face { font-family: 'NIXGONM-Vb'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/NIXGONM-Vb.woff') format('woff'); font-weight: normal; font-style: normal; }
+
 body{
-  font-family: 'Montserrat', sans-serif;
-  font-family: 'Do Hyeon', sans-serif;
+  font-family: 'NIXGONM-Vb';   
 }
 
 .site-header {
@@ -28,8 +29,6 @@ body{
 
 .site-title {
   @include relative-font-size(4);
-  font-family: 'Montserrat', sans-serif;
-  font-family: 'Do Hyeon', sans-serif;
   //text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
   letter-spacing: 1px;
   //font-weight: 300;
@@ -301,7 +300,7 @@ body{
 }
 
 .post-content {
-  font-size: 20px;
+  font-size: 18px;
   margin-bottom: $spacing-unit;
 
   h2 {
