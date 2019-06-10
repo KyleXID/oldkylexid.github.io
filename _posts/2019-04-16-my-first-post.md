@@ -7,7 +7,7 @@ categories: Ubuntu
 ###### 참고 : <https://www.maketecheasier.com/useful-shortcut-keys-in-ubuntu/>
 ###### <https://soooprmx.com/archives/2777>
 
-<br/>
+ <br/>
 # 유용한 단축키 모음
 
  아직 우분투가 익숙치 않아 단축키를 알아두면 작업할때 유용할것 같아서 포스팅하게 되었습니다. 익숙하지 않은 단축키 위주로 작성하였습니다.
@@ -17,7 +17,7 @@ categories: Ubuntu
 <br/>
 ## Windows
 #### *SUPER키는 WINDOW키와 동일하다*
-- ALT + ` = 같은 프로그램의 다른 창 활성화
+- ALT + \` = 같은 프로그램의 다른 창 활성화
 - CTRL + SUPER + UP = 창 최대화
 - CTRL + SUPER + DOWN = 창 최소화 OR 최대화된 창 크기 복구
 - ALT + SPACE = 창 메뉴 열기
@@ -49,7 +49,7 @@ categories: Ubuntu
 - ALT + B = 한 글자 뒤로 이동
 - 방향키 위/아래 = 사용한 명령어 확인
 - SHIFT + PageUP/PageDown = 터미널 스크롤
-  
+
 ---
 
 <br/>
