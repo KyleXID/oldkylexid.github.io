@@ -14,6 +14,7 @@ $theme: #062333;
   }
 
   code {
+    font-size: 18px;
     background: $theme;
     color: #ddd;
 
@@ -83,4 +84,11 @@ $theme: #062333;
   .vi    { color: #008080 } // Name.Variable.Instance
   .il    { color: #099 } // Literal.Number.Integer.Long
   .p     { color: #e7bf6a }
+}
+
+.highlighter-rouge {
+  background: #F7F7F9;
+  color: #E01E5A;
+  font-size:20px;
+  border: 1px solid #E1E1E8;
 }
