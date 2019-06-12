@@ -38,3 +38,6 @@ url: https://kylexid.github.io/
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# GA
+google_analytics: UA-141928637-1
